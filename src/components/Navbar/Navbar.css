@@ -1,4 +1,4 @@
-.main__header {
+.navbar {
 	width: 100%;
 	height: 60px;
 	position: fixed;
@@ -8,18 +8,21 @@
 	padding: 0.5rem 1rem;
 	z-index: 1;
 	display: flex;
+
+	flex-direction: row;
+
 	align-items: center;
-	justify-content: center;
+	justify-content: space-between;
 }
 
-.main__header > div {
+.main__header {
 	display: inline-block;
-	vertical-align: middle;
+	padding: 0.5rem 1rem;
 }
 
 .main__header--brand {
-	height: 56px;
 	display: flex;
+	height: 56px;
 	align-content: center;
 	justify-content: center;
 }
@@ -31,13 +34,17 @@
 .main__header--title {
 	text-decoration: none;
 	color: white;
-	margin: 0 5px;
+	padding-left: 1em;
 }
 
 .main__nav {
 	display: inline-block;
+
+	padding: 0.5rem 2rem;
+
 	text-align: center;
-	vertical-align: middle;
+	justify-content: right;
+	align-content: flex-end;
 }
 
 .main__nav--items {
