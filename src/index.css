@@ -1,0 +1,21 @@
+@font-face {
+	font-family: CalibreRegular;
+  	src: url(./assets/fonts/Calibre-Regular.ttf);
+}
+
+body {
+	font-family: CalibreRegular, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+}
+
+a {
+
+}
+
+p {
+
+}
+
