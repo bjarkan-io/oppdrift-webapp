@@ -6,7 +6,8 @@ import thunk from "redux-thunk"
 import { composeWithDevTools } from "redux-devtools-extension"
 import rootReducer from "./data/reducers"
 import Routes from "./routes"
-import * as serviceWorker from "./serviceWorker"
+
+import './index.css'
 
 const store = createStore(
 	rootReducer,
@@ -19,4 +20,3 @@ ReactDOM.render(
 	</Provider>,
 	document.getElementById("root")
 )
-serviceWorker.unregister()
